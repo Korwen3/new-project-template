@@ -1,0 +1,30 @@
+/*
+  ❌SHOULD NOT BE CUSTOMISED
+ */
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.5rem;
+}
+
+.sr-only {
+  position: absolute; /* Remove from normal flow */
+  width: 1px;        /* Reduce width */
+  height: 1px;       /* Reduce height */
+  margin: -1px;      /* Move off-screen */
+  padding: 0;        /* Remove padding */
+  overflow: hidden;  /* Prevent overflow */
+  clip: rect(0, 0, 0, 0); /* Clip the element */
+  border: 0;         /* Remove border */
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

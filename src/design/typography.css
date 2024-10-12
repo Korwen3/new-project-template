@@ -1,0 +1,60 @@
+/*
+  ❌SHOULD NOT BE CUSTOMISED
+  ✅COULD BE AUGMENTED
+ */
+
+h1 {
+  font-size: clamp(
+    var(--h2-font-size),
+    0.6522rem + 1.7391vw,
+    var(--h1-font-size)
+  );
+}
+
+h2 {
+  font-size: clamp(
+    var(--h3-font-size),
+    0.6522rem + 1.7391vw,
+    var(--h2-font-size)
+  );
+}
+
+h3 {
+  font-size: clamp(
+    var(--h4-font-size),
+    0.6522rem + 1.7391vw,
+    var(--h3-font-size)
+  );
+}
+
+h4 {
+  font-size: clamp(
+    var(--h5-font-size),
+    0.6522rem + 1.7391vw,
+    var(--h4-font-size)
+  );
+}
+
+h5 {
+  font-size: clamp(
+    var(--h6-font-size),
+    0.6522rem + 1.7391vw,
+    var(--h5-font-size)
+  );
+}
+
+h6 {
+  font-size: clamp(
+    var(--h6-font-size )* 0.8rem,
+    0.6522rem + 1.7391vw,
+    var(--h6-font-size)
+  );
+}
+
+p {
+  font-size: clamp(
+    var(--p-font-size ) * 0.8rem,
+    0.6522rem + 1.7391vw,
+    var(--p-font-size)
+  );
+}
